@@ -124,17 +124,18 @@
     color: #f9faf8;
     border-radius: 5px;
     padding: 0px 10px 0px 10px;
+    flex-wrap: wrap;
 }
 .cta{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 .section-four button{
     background-color: #3882f6;
     border: 1px solid #f9faf8;
     border-radius: 5px;
     margin-left: 20px;
+    margin-bottom: 5px;
     padding: 3px 5px 3px 5px;
     color: #f9faf8;
     cursor: pointer;
