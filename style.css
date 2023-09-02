@@ -55,23 +55,101 @@
     color: white;
     font-size: 1rem;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 /* section two style */
 .section-two{
+    height: 30vh;
+    padding: 30px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .section-two h2{
     font-size: 36px;
     color: #1f2937;
 }
+.section-two .image-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.image-card{
+    margin: 20px;
+}
 .section-two div .image{
     height: 12vh;
-    width: 5vw;
+    width: 100px;
     border: 2px solid #3882f6;
     border-radius: 5px;
 }
 .section-two div p{
     font-size: 0.7rem;
     color: darkgray;
+}
+
+/* section three styles */
+.section-three{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 30px;
+}
+.section-three p{
+    font-size: 2rem;
+}
+.text-container{
+    width: 40vw;
+}
+.section-three .text-container #cite{
+    display: block;
+    text-align: right;
+    padding-right: 60px;
+}
+
+/* section four styles */
+.section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 30px;
+}
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    width: 40vw;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+}
+.section-four button{
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 3px 5px 3px 5px;
+    color: #f9faf8;
+    cursor: pointer;
+}
+
+/* Footer */
+footer{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 7vh;
+    color: #e5e7eb;
 }
